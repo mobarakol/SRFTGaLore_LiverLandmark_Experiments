@@ -1,6 +1,6 @@
 # SRFTGaLore_LiverLandmark_Experiments
 
-Model Versions:
+### Model Versions:
 v\_8: Cross Attention and skip DPE and Geometric augmentation and remove interpolation
 
 v\_9: Cross Attention, SAM-SAM and skip DPE and Geometric augmentation
