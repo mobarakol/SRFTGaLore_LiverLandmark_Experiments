@@ -80,7 +80,7 @@ def main(save_path, args):
     print("proj_type:", args.proj_type)
 
     optimizer = model.get_galore_optimizer(lr=args.lr, weight_decay=args.weight_decay, rank=args.rank)
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, args.epoch, args.decay_lr)
+    # scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, args.epoch, args.decay_lr)
 
     for epoch in range(args.epoch):
         epoch_running_loss = 0
@@ -201,5 +201,6 @@ if __name__ == '__main__':
 
     save_path = 'results/'
     os.makedirs(save_path, exist_ok=True)
+
 
     main(save_path, args=args)
