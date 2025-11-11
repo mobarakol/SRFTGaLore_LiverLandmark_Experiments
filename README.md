@@ -14,3 +14,5 @@ v\_12: original CA (v\_1) with SAM+LORA
 v\_13: Replace the depth using DA2 encoder based on v\_10
 
 v\_14: Replace the depth using DA2 encoder based on v\_10, swap CA 
+
+v\_19: Finetune DA2 and SAM2 using SRFT-GaLore
